@@ -14,9 +14,6 @@ class Chart2 extends Component {
     total += (this.props.list[i]);
 }
 
-  console.log("total",total)
-
-
     const chartConfigs = {
       type: "column2d", // The chart type
       width: "1200", // Width of the chart
@@ -30,7 +27,7 @@ class Chart2 extends Component {
           xAxisName: "Mois",
           yAxisName: "Euros",
           numberSuffix: " Euros",
-          theme: "fusion"
+          theme: "fusion",
         },
         // Chart Data
         data: [

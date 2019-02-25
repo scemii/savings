@@ -139,7 +139,6 @@ class Datas extends Component {
 
   render() {
     return (
-      console.log("valeur du tableau", this.state.list),
       (
         <div>
           <Chart list={this.state.list} />
