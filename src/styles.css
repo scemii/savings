@@ -1,0 +1,28 @@
+.col-md-6 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+
+.logout {
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.tableau {
+  position: absolute; /* postulat de départ */
+  margin-left: 50%;
+  margin-top: 40%;
+  margin-bottom: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.app {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+body {
+  background-image: url("https://wallpaperplay.com/walls/full/9/8/7/15265.jpg");
+  background-color: #cccccc;
+}
