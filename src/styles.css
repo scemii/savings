@@ -27,7 +27,7 @@
 .tableau {
   position: absolute; /* postulat de départ */
   margin-left: 50%;
-  margin-top: 40%;
+  margin-top: 62%;
   margin-bottom: 50px;
   transform: translate(-50%, -50%);
 }

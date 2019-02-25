@@ -6,15 +6,10 @@ import FusionTheme from "fusioncharts/themes/fusioncharts.theme.fusion";
 
 ReactFC.fcRoot(FusionCharts, Charts, FusionTheme);
 
-class Chart2 extends Component {
-  render() {
-    let total = 0;
-    for(var i = 0;i<=11;i++){
-    total += (this.props.list[i]);
-}
-
+class Chart3 extends Component {
+  render() {  
     const chartConfigs = {
-      type: "column2d", // The chart type
+      type: "doughnut3d", // The chart type
       width: "1200", // Width of the chart
       height: "600", // Height of the chart
       dataFormat: "json", // Data type
@@ -26,7 +21,7 @@ class Chart2 extends Component {
           xAxisName: "Mois",
           yAxisName: "Euros",
           numberSuffix: " Euros",
-          theme: "fusion",
+          theme: "fusion"
         },
         // Chart Data
         data: [
@@ -77,11 +72,6 @@ class Chart2 extends Component {
           {
             label: "Décembre",
             value: this.props.list[11]
-          },
-          {
-            label: "Total",
-            value: total,
-            color: "#9b59b6"
           }
         ]
       }
@@ -91,4 +81,4 @@ class Chart2 extends Component {
   }
 }
 
-export default Chart2;
+export default Chart3;

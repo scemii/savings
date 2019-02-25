@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import * as firebase from "firebase";
 import Chart from "./Charts";
 import Chart2 from "./Chart2";
+import Chart3 from "./Chart3";
 
 class Datas extends Component {
   constructor() {
@@ -140,9 +141,10 @@ class Datas extends Component {
   render() {
     return (
       (
-        <div>
+        <div> 
           <Chart list={this.state.list} />
           <Chart2 list={this.state.list} />
+          <Chart3 list={this.state.list} />
         </div>
       )
     );
